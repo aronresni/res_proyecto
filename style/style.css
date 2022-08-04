@@ -1,0 +1,168 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F6FE;
+    background-image: url(/img/background.svg);
+    background-repeat: repeat-y;
+    justify-items: center;
+    
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+
+}
+.cryptotarget{
+    margin: 100%;
+}
+
+
+
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6FE;
+}
+.logo{
+ height: 90px;   
+ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+nav{
+    margin-right: 50px; 
+}
+.menu{
+    float: left;
+    list-style: none;
+    padding: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 12px;
+
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* 1ra parte de la web */
+
+.art1{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto h1{
+    font-size: 50px;
+}
+.texto{
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.imagen{
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.contenedor{
+    margin: 20px;
+    padding: 100px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.aside{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Carrusel */
+.slide{
+   display: flex;
+    justify-items: center;
+    padding: 60px;
+    align-items: center;
+
+    
+}
+.slide img{
+    height: 40px;
+}
+
+
+.tarjetas img{
+    height: 50px;
+}
+
+hr{
+    opacity: 0.1;
+    border: 1px solid #000000;
+    transform: rotate(-180deg);
+    width: 1728;
+}
+
+/* 2da parte de la web */
+.containergrande{
+    display: flex;
+    justify-items: center;
+}
+.tittle2{
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container{
+    padding: 60px;
+    
+}
+
+
+/* carrusel de inversores */
+
+
+/* Mock up tarjetas*/
+.mockuptarjetas{
+    padding: 60px;
+}
+
+.invcontenedor div{
+    display: flex;
+}
+.imagenesinv{
+    justify-content: space-between;
+    margin: 10px;
+    padding: 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 23px;
+}
+
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.cointaner__footer{
+    display: flex;
+    
+}
+footer img{
+    height: 50px;
+}
+
+/* precio pagina de inversiones */
