@@ -1,42 +1,37 @@
-
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #F6F6FE;
     background-image: url(/img/background.svg);
     background-repeat: repeat-y;
     justify-items: center;
-    
+
     font-family: 'Roboto', sans-serif;
     color: #000000;
-
 }
-.cryptotarget{
+
+.cryptotarget {
     margin: 100%;
 }
 
 
 
-
 /* HEADER */
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F6F6FE;
-}
-.logo{
- height: 90px;   
- filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+.logo {
+    height: 90px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-nav{
-    margin-right: 50px; 
+nav {
+    margin-right: 50px;
 }
-.menu{
+
+.menu {
     float: left;
     list-style: none;
     padding: 20px;
@@ -44,37 +39,41 @@ nav{
     border-radius: 12px;
 
 }
-a{
+
+a {
     text-decoration: none;
     color: #000000;
-    
+
 }
 
 
 nav a:hover {
     text-decoration: underline;
 }
+
 /* 1ra parte de la web */
 
-.art1{
+.art1 {
     display: flex;
     flex-direction: column;
 }
 
-.texto h1{
+.texto h1 {
     font-size: 50px;
 }
-.texto{
+
+.texto {
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 }
-.imagen{
+
+.imagen {
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.contenedor{
+.contenedor {
     margin: 20px;
     padding: 100px;
 
@@ -83,30 +82,31 @@ nav a:hover {
 
 }
 
-.aside{
+.aside {
     display: flex;
     justify-content: space-around;
 }
 
 /* Carrusel */
-.slide{
-   display: flex;
+.slide {
+    display: flex;
     justify-items: center;
     padding: 60px;
     align-items: center;
 
-    
+
 }
-.slide img{
+
+.slide img {
     height: 40px;
 }
 
 
-.tarjetas img{
+.tarjetas img {
     height: 50px;
 }
 
-hr{
+hr {
     opacity: 0.1;
     border: 1px solid #000000;
     transform: rotate(-180deg);
@@ -114,11 +114,12 @@ hr{
 }
 
 /* 2da parte de la web */
-.containergrande{
+.containergrande {
     display: flex;
     justify-items: center;
 }
-.tittle2{
+
+.tittle2 {
     margin: 40px;
     padding: 20px;
     display: flex;
@@ -126,9 +127,10 @@ hr{
     align-items: center;
 
 }
-.container{
+
+.container {
     padding: 60px;
-    
+
 }
 
 
@@ -136,14 +138,15 @@ hr{
 
 
 /* Mock up tarjetas*/
-.mockuptarjetas{
+.mockuptarjetas {
     padding: 60px;
 }
 
-.invcontenedor div{
+.invcontenedor div {
     display: flex;
 }
-.imagenesinv{
+
+.imagenesinv {
     justify-content: space-between;
     margin: 10px;
     padding: 100px;
@@ -153,16 +156,4 @@ hr{
 
 
 /* Footer */
-footer{
-    display: flex;
-    justify-content: space-between;
-}
-.cointaner__footer{
-    display: flex;
-    
-}
-footer img{
-    height: 50px;
-}
 
-/* precio pagina de inversiones */
