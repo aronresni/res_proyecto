@@ -1,0 +1,50 @@
+@mixin white-gradient {
+	background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+$animationSpeed: 40s;
+
+// Animacion
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(calc(-250px * 7))
+	}
+}
+
+
+// Estilos
+h3 {
+	font-size: 2.5vw;
+	font-style: normal;
+	font-weight: 700;
+
+	line-height: 78px;
+	display: flex;
+	justify-content: center;
+	letter-spacing: -0.02em;
+
+	color: $txt-color;
+	filter: $shadow_drop;
+}
+
+.slidermarcas {
+	background: $bg-lightwhite;
+	height: 100px;
+
+	.slide-trackmarcas {
+
+		display: flex;
+		justify-content: space-around;
+
+	}
+
+	.slidemarcas .slidemarcas2 {
+		height: 100px;
+		width: 190px;
+	}
+
+}

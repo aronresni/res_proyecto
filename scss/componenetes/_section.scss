@@ -1,0 +1,106 @@
+/* 1ra parte de la web */
+
+
+.contenedor {
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+
+    filter:$shadow-drop
+}
+.texto {
+
+    filter:$shadow-drop
+
+
+}
+.texto h1 {
+    font-size: 7vw;
+    font-style: normal;
+    font-weight: 700;
+
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color:$txt-color
+}
+
+
+
+/* 1ra parte de la web */
+
+
+.art1 {
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 28px;
+    text-align: center;
+}
+
+.art2 {
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 28px;
+    text-align: center;
+}
+.portada {
+    margin-left: 50px;
+}
+
+
+.aside {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 1ra parte de la web */
+
+.cards {
+    padding: 20px;
+    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.card {
+    padding: 15px;
+    border: 2px solid #6B7280;
+    border-radius: 30px;
+    background-color: $bg-lightwhite
+}
+
+/* Mock up tarjetas*/
+.mockuptarjetas {
+    padding: 60px;
+}
+
+.imgtarjetas {
+ max-width: 40%;
+}
+
+.invcontenedor div {
+    display: flex;
+}
