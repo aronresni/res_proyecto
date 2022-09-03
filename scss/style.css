@@ -1,4 +1,7 @@
 @media screen and (max-width: 700.9px) {
+  .logo {
+    display: none;
+  }
   .portada {
     display: none;
   }
@@ -41,9 +44,22 @@
   }
 }
 @media screen and (min-width: 700.9px) {
-  .carousel{
+  .carousel {
     display: none;
   }
+}
+.cards {
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  padding: 20px;
+  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
 .cryptotarget {
   margin: 100%;
@@ -79,15 +95,16 @@ body {
   font-family: "Roboto", sans-serif;
   color: #000000;
 }
-}
+
 /* 1ra parte de la web */
-.contenedor{
+.contenedor {
   margin: 30px;
   padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .imagen {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -142,13 +159,11 @@ body {
 }
 
 /* 1ra parte de la web */
-.cards{
+.cards {
   padding: 20px;
   margin: 50px;
   margin-left: 50px;
   margin-right: 50px;
-}
-.cards {
   background-position: center;
   display: flex;
   justify-content: space-between;
@@ -172,6 +187,15 @@ body {
 
 .invcontenedor div {
   display: flex;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1750px);
+  }
 }
 
 @keyframes scroll {
@@ -211,6 +235,4 @@ h3 {
 .py-5 {
   margin: 30px;
   padding: 30px;
-}
-
-
+}/*# sourceMappingURL=style.css.map */

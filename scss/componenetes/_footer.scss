@@ -3,4 +3,5 @@
 .py-5 {
     margin: 30px;
     padding: 30px;
+  @include color-invertido
 }

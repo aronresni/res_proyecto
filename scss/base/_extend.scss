@@ -1,0 +1,12 @@
+%cardspos{
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    padding: 20px;
+    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    @extend %cardspos
+}

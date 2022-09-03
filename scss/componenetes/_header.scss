@@ -1,22 +1,26 @@
 .cryptotarget {
     margin: 100%;
 }
+
 .logo {
     height: 90px;
-    filter: $shadow-drop
+    filter: $shadow-drop;
 }
+
 .menu {
     float: left;
     list-style: none;
     padding: 20px;
     filter: $shadow-drop;
-    border-radius:12px;
+    border-radius: 12px;
 }
+
 a {
     text-decoration: none;
-    color: $txt-color
-
+    color: $txt-color;
 }
+
 nav a:hover {
     text-decoration: underline;
 }
+
