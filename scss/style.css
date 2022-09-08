@@ -1,7 +1,4 @@
 @media screen and (max-width: 700.9px) {
-  .logo {
-    display: none;
-  }
   .portada {
     display: none;
   }
@@ -39,7 +36,7 @@
   .slidemarcas2 {
     display: none;
   }
-  .mockuptarjetas h5, p {
+  .mockuptarjetas p {
     display: none;
   }
 }
@@ -66,25 +63,29 @@
 }
 
 .logo {
-  height: 90px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 10vw;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
 }
 
 .menu {
   float: left;
   list-style: none;
   padding: 20px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
   border-radius: 12px;
 }
 
-a {
+.a {
   text-decoration: none;
   color: #000000;
 }
 
+.nav-link {
+  font-weight: 400;
+}
+
 nav a:hover {
-  text-decoration: underline;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
 }
 
 body {
@@ -106,11 +107,11 @@ body {
 }
 
 .imagen {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
 }
 
 .texto {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
 }
 
 .texto h1 {
@@ -158,22 +159,32 @@ body {
   justify-content: space-around;
 }
 
-/* 1ra parte de la web */
-.cards {
-  padding: 20px;
-  margin: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  background-position: center;
+/* 2a parte de la web */
+h4 {
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.card-group {
+  display: flex;
+  padding: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .card {
-  padding: 15px;
-  border: 2px solid #6B7280;
-  border-radius: 30px;
-  background-color: #ffffff;
+  padding: 30px;
+}
+
+.card-img-top {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
 }
 
 /* Mock up tarjetas*/
@@ -189,6 +200,14 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 800px) {
+  .card-group {
+    display: flex;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 @-webkit-keyframes scroll {
   0% {
     transform: translateX(0);
@@ -197,7 +216,6 @@ body {
     transform: translateX(-1750px);
   }
 }
-
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -207,7 +225,7 @@ body {
   }
 }
 h3 {
-  font-size: 2.5vw;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 700;
   line-height: 78px;
@@ -215,7 +233,7 @@ h3 {
   justify-content: center;
   letter-spacing: -0.02em;
   color: #000000;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
 }
 
 .slidermarcas {
@@ -231,8 +249,94 @@ h3 {
   width: 190px;
 }
 
-/* Footer */
-.py-5 {
-  margin: 30px;
+.pie-pagina {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 150px;
+}
+
+.pie-pagina .grupo-1 .box h5 {
+  color: #000000;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  margin-right: 10px;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: whitesmoke;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #171924;
+  padding: 15px 10px;
+  text-align: center;
+  color: white;
+}
+
+.pie-pagina.grupo-2 small {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+.invcontenedor {
+  display: flex;
   padding: 30px;
+  align-items: center;
+}
+
+.imagen {
+  width: 40vw;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.card-img-top {
+  width: 10vw;
+}
+
+.card-body {
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

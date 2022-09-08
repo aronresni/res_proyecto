@@ -14,10 +14,7 @@
     filter:$shadow-drop
 }
 .texto {
-
     filter:$shadow-drop
-
-
 }
 .texto h1 {
     font-size: 7vw;
@@ -70,28 +67,33 @@
     justify-content: space-around;
 }
 
-/* 1ra parte de la web */
+/* 2a parte de la web */
+h4 {
+	font-size: 4vw;
+	font-style: normal;
+	font-weight: 700;
 
-.cards {
-    padding: 20px;
-    margin: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-position: center;
-    display: flex;
-    justify-content: space-between;
+	line-height: 78px;
+	display: flex;
+	justify-content: center;
+	letter-spacing: -0.02em;
 
-
-
-
+	color: $txt-color;
+	filter: $shadow_drop;
 }
 
-.card {
-    padding: 15px;
-    border: 2px solid #6B7280;
-    border-radius: 30px;
-    background-color: $bg-lightwhite;
-    
+.card-group {
+    display: flex;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.card{
+    padding: 30px;
+}
+.card-img-top{
+    filter: $shadow-drop;
 }
 
 /* Mock up tarjetas*/
@@ -105,4 +107,14 @@
 
 .invcontenedor div {
     display: flex;
+}
+@media screen and (max-width: 800px){
+ 
+    .card-group {
+    display: flex;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
 }

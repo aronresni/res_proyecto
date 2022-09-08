@@ -3,7 +3,7 @@
 }
 
 .logo {
-    height: 90px;
+    width: 10vw;
     filter: $shadow-drop;
 }
 
@@ -15,12 +15,18 @@
     border-radius: 12px;
 }
 
-a {
+.a{
     text-decoration: none;
     color: $txt-color;
 }
 
+.nav-link{
+    font-weight: 400;
+}
+
+
 nav a:hover {
-    text-decoration: underline;
+    
+    filter: $shadow-drop;
 }
 

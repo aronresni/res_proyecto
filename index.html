@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0daa0d9e38.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -31,7 +32,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="./icon/logo.png" alt="" class="logo">
+                    <img src="./icon/logo.png" alt="Res Inversiones logo" class="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -48,9 +49,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./html/capacitaciones.html">Capacitaciones</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./html/capacitaciones.html">Quienes Somos</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="log">
@@ -95,39 +93,65 @@
         </div>
     </section>
 
+    <!---4° PARTE DE LA WEB MOBILE--->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="texto1">
+                    <h5>IOS Y Android</h5>
+                    <p1>La app mas segura en cualquier sistema operativo</p1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="texto2"></div>
+                <h5>Opera 24/7</h5>
+                <p1>Compra o vende todos los dias y sin limite de horario.</p1>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
     <hr>
-
     <!---2° PARTE DE LA WEB--->
-    <section class="cards">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./img/diseño2.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">¡Aprende a operar en el mercado!</h5>
-                <p class="card-text">Clickea en <b>leer mas</b> y accede al grupo donde podras acceder a tutoriales y
-                    los mejores consejos para empezar en el mercado, ademas te regalamos 1 mes gratis en asesoria
-                    privada de señales</p>
-                <a href="#" class="btn btn-primary"><b>Leer mas.</b></a>
-            </div>
+    <section class="container-card">
+        <div>
+            <h4>Opera con nosotros y lleva tu rentabilida a otro nivel</h4>
         </div>
-
-        <div class="card card-mobile" style="width: 18rem;">
-            <img class="card-img-top" src="./img/diseño4.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Asesoria gratuita a traves de Whatsapp </h5>
-                <p class="card-text">Accede a asesoria 100% gratuita sobre el mundo de las <b>criptomonedas</b></p>
-                <a href="#" class="btn btn-primary">Nuestro Whatsapp</a>
+        <div class="card-group">
+            <div class="card">
+                <img src="./img/diseño2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Aprende a invertir en criptomonedas</h5>
+                    <p class="card-text">Gracias a nuestra seccion de capacitacion, vas a poder inscribirte en clases gratuitas sobre inversiones</p>
+                </div>
             </div>
-        </div>
-        <div class="card card-mobile" style="width: 18rem;">
-            <img class="card-img-top" src="./img/diseño4.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card">
+                <img src="./icon/logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">¿Quienes somos?</h5>
+                    <p class="card-text">Somos una empresa Argentina dedicada a la asesoria financiera privada.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/diseño4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Accede a señales VIP</h5>
+                    <p class="card-text">Accediendo a nuestro grupo de señales, podras obtener un mes gratis</p>
+                </div>
             </div>
         </div>
     </section>
+
 
 
     <!---CARRUSEL DE INVERSORES--->
@@ -135,129 +159,53 @@
         <h3>Contamos con el apoyo de:</h3>
         <div class="slide-trackmarcas">
             <div class="slidemarcas">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="200" alt="" />
             </div>
             <div class="slidemarcas">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="200" alt="" />
             </div>
             <div class="slidemarcas2">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="200" alt="" />
             </div>
             <div class="slidemarcas2">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="200" alt="" />
             </div>
         </div>
 
         <hr>
-        <!---CARRUSEL DE INVERSORES--->
-
-
-
-
-
-
-
-
-
-        <!---4° PARTE DE LA WEB MOBILE--->
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="texto1">
-                        <h5>IOS Y Android</h5>
-                        <p1>La app mas segura en cualquier sistema operativo</p1>
+        <!---FOOTER--->
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="./icon/logo.png" class="logo-footer" alt="Logo de Res">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                <h5>Sobre nosotros</h5>
+                <p>Somos una empresa Argentina dedicada a la asesoria financiera privada, buscamos ayudarte en mercados inovadores como puede ser el de las criptomonedas</p>
+            </div>
+                <div class="box">
+                    <h5>Siguenos</h5>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-twitter"></a>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="texto2"></div>
-                    <h5>Opera 24/7</h5>
-                    <p1>Compra o vende todos los dias y sin limite de horario.</p1>
-                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy;2022 <b>Res Inversiones</b> - Todos los derechos Reservados</small>
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </footer>
 
-        <!---4° PARTE DE LA WEB PC--->
-        <div class="mockuptarjetas">
-            <div class="texto1">
-                <h5>IOS Y Android</h5>
-                <p>La app mas segura en cualquier sistema operativo</p>
-
-
-                <h5>Opera 24/7</h5>
-                <p>Compra o vende todos los dias y sin limite de horario.</p>
-
-            </div>
-            <div class="imagenestarjetas">
-                <img src="./img/3D Bank Cards (3d glassmorphim) (Community).png" class="imgtarjetas">
-            </div>
-            <div class="texto3">
-                <h5>Usa tus pesos</h5>
-                <p>Transferi pesos al instante con tu CVU desde y hacia tus cuentas.</p>
-
-                <h5>Billetera 100% segura</h5>
-                <p>Protege tus monedas virtuales con clave y estandares de seguridad elevados</p>
-            </div>
-
-            <hr>
-
-            <!---FOOTER--->
-            <footer class="py-5">
-                <div class="row">
-
-                    <div class="col-6 col-md-2 mb-3">
-                        <h5>Section</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-5 offset-md-1 mb-3">
-                        <form>
-                            <h5>Subscribe to our newsletter</h5>
-                            <p>Monthly digest of what's new and exciting from us.</p>
-                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                                <label for="newsletter1" class="visually-hidden">Email address</label>
-                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                                <button class="btn btn-primary" type="button">Subscribe</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                    <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-                    <ul class="list-unstyled d-flex">
-                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                    <use xlink:href="#twitter" />
-                                </svg></a></li>
-                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                    <use xlink:href="#instagram" />
-                                </svg></a></li>
-                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                    <use xlink:href="#facebook" />
-                                </svg></a></li>
-                    </ul>
-                </div>
-            </footer>
-
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,12 +1,9 @@
 
 @media screen and (max-width: 700.90px) {
-    .logo{
-        display: none;
-}
+
     .portada {
         display: none;
     }
-
     .contenedor {
         margin: none;
     }
@@ -50,10 +47,13 @@
         display: none;
     }
 
-    .mockuptarjetas h5, p{
+    .mockuptarjetas p{
         display: none;
     }
 
+}
+@media screen and (max-width: 1000px){
+    
 }
 
 @media screen and (min-width: 700.90px) {
